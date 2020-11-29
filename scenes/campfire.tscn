@@ -15,7 +15,7 @@ __meta__ = {
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 position = Vector2( 0, -6 )
 frames = ExtResource( 1 )
-frame = 2
+frame = 1
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
@@ -23,6 +23,6 @@ rotation = -1.5708
 shape = SubResource( 1 )
 
 [node name="Light2D" type="Light2D" parent="."]
+scale = Vector2( 1, 0.75 )
 texture = ExtResource( 2 )
-texture_scale = 2.0
 color = Color( 1, 0.788235, 0.705882, 1 )
